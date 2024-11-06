@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(65, 64, 62);
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: cursive;
+    color: #0000006e;
+    background-color: #817d7dc8;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 0.4em;
+    /* margin: 180px auto; */
+    height: 600px;
+
+
+}
+
+article {
+    width: 300px;
+    margin: 40px auto;
+    background-color: silver;
+    border: 2px double rgba(0, 0, 0, 0.69);
+    border-radius: 0.3em;
+    height: 80%;
+}
+
+form {
+    text-align: center;
+
+}
+
+input {
+    /* display: block; */
+    height: 80px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 0px 5px;
+    background-color: rgba(192, 192, 192, 0.618);
+    outline-offset: 20px;
+    border: 2px double rgb(69, 69, 69);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    gap: 4px;
+
+}
+
+.notch-design {
+    height: 5px;
+    border-radius: 50px;
+    background-color: black;
+    margin: 50px 85px
+}
+
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    flex-basis: 3;
+    align-items: row;
+    /* justify-content: space-around; */
+    align-content: space-around;
+    gap: 4px;
+}
+
+.operators {
+
+    padding-right: 4px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1;
+    gap: 4px;
+}
+
+button {
+    width: 52px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.operators button {
+    background-color: #858181;
+}
+
+button:hover {
+    background-color: #0e0e6ea4;
+}
+
+
+.red {
+    background-color: red;
+}
